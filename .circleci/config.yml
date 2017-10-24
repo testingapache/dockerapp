@@ -7,7 +7,7 @@ jobs:
   general:
     branches:
       only:
-        - master 
+        - branch-v0.1 
     steps:
       - checkout
       - setup_remote_docker
